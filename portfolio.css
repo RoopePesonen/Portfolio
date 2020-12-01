@@ -1,21 +1,13 @@
 body{
-  background-color:#1F2023;
+  background-color:#b3b3b3;
   color: aliceblue;
   text-align:left;
-  width:10px;
+  font-weight:normal;
+  width:70%;
   font-family:Arial, Helvetica, sans-serif;
   font-size:12px;
-  }.Ota Yhteyttä{
-  margin-top:10px;
-  border:1px #166807 solid;
-  padding:20px;
-  border-radius:20px;
+  margin:9px;
 }
-head{
-
+a:hover{
+  color:#dc143c;
 }
-
-
-
-
-
