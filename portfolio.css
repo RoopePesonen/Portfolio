@@ -11,7 +11,7 @@ body{
 a:hover{
   color:#dc143c;
 }
- <a class="nappula asemointi">Liikkuva nappi</a>
+ <a class="navigaatio">Liikkuva nappi</a>
 .asemointi{
   position: fixed;
   top:100px;
