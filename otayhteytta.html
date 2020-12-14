@@ -3,29 +3,60 @@
 
 <head>
 	<title>Ota Yhteyttä</title>
+  <link rel="stylesheet" href="portfolio.css">
 </head>
 
-<body>
-	<a href="index.html">Takaisin</a><br><br>
-    <label>Etunimi</label>
-      <input type="text" placeholder="Kirjoita etunimi"><br></br>
-      <label>Sukunimi</label>
-      <input type="text" placeholder="Kirjoita sukunimi"><br></br>
-      <label>Sähköposti</label>
-      <input type="email"><br></br>
-      <label>Ikä</label>
-      <input type="number"><br></br>
-      <label>Tänään</label>
-      <input type="date"><br></br>
-      <label>Tekstikenttä</label>
-      <textarea></textarea><br></br>
-      <label>Miten haluat ottaa yhteytä</label>
-      <br>
-      <select>
-        <option value="---">Sähköpostitse</option>
-        <option value="---">Puhelimitse</option>
-        <option value="---">En halua että minuun otetaan yhteyttä</option>
-      </select><br>
-       <input type="submit">
+  <body>
+    <div id="navigaatio">
+      <ul id="navigaatiolista">
+        <li><a href="index.html" class="navigaationappi">Portfolio</a></li><br>
+        <li><a href="otayhteytta.html" class="navigaationappi">Ota yhteyttä</a></li><br>
+        <li><a href="sendemail.html" class="navigaationappi">Lähetä viesti</a></li><br>
+      </ul>
+    </div>
+    <div id="sisalto1">
+      <h1>Roope Pesonen - Portfolio</h1>
+      <div id="sisalto2">
+        <h2>Ota yhteyttä</h2>
+        <label>Etunimi</label>
+        <input class="input" type="text" placeholder="Kirjoita etunimi"><br><br>
+        <label>Sukunimi</label>
+        <input class="input" type="text" placeholder="Kirjoita sukunimi"><br><br>
+        <label>Sähköposti</label>
+        <input class="input" type="email"><br><br>
+        <label>Puhelinnumero</label>
+        <input class="input" type="tel"><br><br>
+        <label>Ikä</label>
+        <input class="input" type="number"><br><br>
+        <label>Syntymäaika</label>
+        <input class="input" type="date"><br><br>
+        <label>Terveiset</label>
+        <textarea class="input"></textarea><br><br>
+        <label>Miten haluat ottaa yhteytä</label><br>
+        <select class="input">
+          <option value="---">Sähköpostitse</option>
+          <option value="---">Puhelimitse</option>
+          <option value="---">En halua että minuun otetaan yhteyttä</option>
+        </select><br><br>
+        <input type="submit" value="Lähetä">
+      </div>
+      <div>
+        <div class="boksi" id="uutiset">
+          ,,,,,,
+        </div>
+        <div class="boksi" id="some">
+          <p>Instagram:roope_pesonen</p>
+          <p>snapchat:roopew14</p>
+          <p>Discord:Painepesuri#8376</p>
+        </div>
+        <div class="boksi" id="yhteystiedot">
+          <p>Roope Pesonen</p>
+          <p>040 654 5960</p>
+        </div>
+        <div class="boksi" id="logo">
+          ,,,,,,
+        </div>
+      </div>
+    </div>
   </body>
 </html>

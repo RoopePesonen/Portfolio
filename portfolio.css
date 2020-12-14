@@ -1,13 +1,71 @@
 body{
   background-color:#b3b3b3;
   color: aliceblue;
-  text-align:left;
   font-weight:normal;
-  width:70%;
   font-family:Arial, Helvetica, sans-serif;
   font-size:12px;
-  margin:9px;
 }
-a:hover{
-  color:#dc143c;
+#sisalto1{
+  text-align:left;
+  width:70%;
+  margin:auto;
+  border:2px solid #646262;
+  padding:10px;
+}
+#sisalto1 h1{
+  background:#646262;
+  padding:7px;
+  margin-top:0px;
+}
+#navigaatio{
+  background: #000;
+  position:fixed;
+  top:50px;
+  left:100px;
+}
+#navigaatiolista{
+  list-style-type:none;
+  display:block;
+  width:70px;
+  padding:8px;
+}
+.navigaationappi{
+  color: #fff;
+  text-decoration-line:underline;
+  text-decoration-style:dashed;
+}
+.navigaationappi:hover{
+  color:#ff0000;
+}
+.navigaationappi:active{
+  color:#fff;
+}
+#opinnot{
+  border:2px #646262 solid;
+  border-radius:20px;
+  padding:15px;
+  width:22%;
+}
+#opinnot table{
+  margin:auto;
+}
+.input{
+  width:100%;
+}
+#sisalto2{
+  text-align:left;
+  margin:auto;
+  background:#858383;
+  padding:10px 20px;
+  border:double;
+  border-color:#646262;
+}
+.boksi{
+  float:left;
+  width:25%;
+  box-sizing:border-box;
+  border:2px solid #646262 ;
+  margin-top:25px;
+  padding:10px;
+  height:95px;
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Lähetä viesti
+    </title>
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body>
+    <div id="navigaatio">
+      <ul id="navigaatiolista">
+        <li><a href="index.html" class="navigaationappi">Portfolio</a></li><br>
+        <li><a href="otayhteytta.html" class="navigaationappi">Ota yhteyttä</a></li><br>
+        <li><a href="sendemail.html" class="navigaationappi">Lähetä viesti</a></li><br>
+      </ul>
+    </div>
+    <div id="sisalto1">
+      <header>
+        <h1>
+          Lähetä viesti
+        </h1>
+      </header>
+      <div class="lomake-alue">
+        <form id="lomake">
+          <div>
+            <label>
+              Nimi:
+            </label>
+            <input class="input" type="text" id="nimi">
+          </div>
+          <div>
+            <label>
+              Email:
+            </label>
+            <input class="input" type="text" id="email">
+          </div>
+          <div>
+            <label>Viesti: </label>
+            <textarea class="input"></textarea>
+          </div>
+          <input type="submit" class="lahetanappi" value="Lähetä">
+        </form>
+      </div>
+    </div>
+    <script src="scriptEmail.js"></script>
+  </body>
+</html>
